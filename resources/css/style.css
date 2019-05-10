@@ -1,31 +1,40 @@
 body {
   font-family: Helvetica;
   font-size: 22px;
-  color: seashell;
-  background-color: black;
   opacity: 0.9;
   text-align: center;
   margin: 0;
 }
 
-/*
-header, .content, #mission, .tea, .flex-container.locations .adress {
-  display: flex;
-  align-items: center;
+body, a {
+  color: seashell;
 }
-*/
+
+body, header, .statement, .adress {
+  background-color: black;
+}
 
 .flex-container {
   display: flex;
   align-items: center;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
 header {
   position: fixed;
   z-index: 1;
   height: 69px;
-  width: 100%;
-  background-color: black;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
 }
@@ -43,33 +52,20 @@ nav span {
   padding: 20px 10px;
 }
 
-a {
-  color: seashell;
-}
-
 .content {
   padding-top: 70px;
   width: 1200px;
   margin: auto;
-  flex-direction: column;
 }
 
 h2, h3, h4 {
-    margin: 0;
-    padding: 10px;
-  }
+  margin: 0;
+  padding: 10px;
+}
 
 #mission {
   background-image: url(../mission.jpg);
   height: 700px;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.statement {
-  background-color: black;
-  width: 100%;
 }
 
 #featured {
@@ -77,12 +73,10 @@ h2, h3, h4 {
   height: 700px;
   margin: 0 auto;
   padding-top: 70px;
-
 }
 
 .tea {
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .item {
@@ -101,32 +95,24 @@ h2, h3, h4 {
   text-align: center;
 }
 
-.flex-container.locations {
-  justify-content: center;
-}
-
-
 #locations {
   background-image: url(../locations.jpg);
   height: 500px;
-  width: 100%;
   padding-top:70px;
 }
 
 .adress {
-  background-color: black;
   width: 300px;
   opacity: 1;
   padding: 10px;
   margin: 5px 20px;
-  flex-direction: column;
+}
+
+.contact {
+  height: 200px;
 }
 
 footer {
   text-align: left;
   padding-left: 20px;
-}
-
-.contact {
-  height: 200px;
 }
