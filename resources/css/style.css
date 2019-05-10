@@ -52,6 +52,14 @@ h2, h3, h4 {
     padding: 10px;
   }
 
+h3 {
+    font-size: 22px;
+  }
+
+p {
+  padding: 22px 0px;
+}
+
 #mission {
   background-image: url(../mission.jpg);
   height: 700px;
@@ -66,6 +74,7 @@ h2, h3, h4 {
 
 #featured {
   width: 1000px;
+  height: 700px;
   margin: 0 auto;
   padding-top: 70px;
 
@@ -86,36 +95,28 @@ h2, h3, h4 {
   margin: 10px;
 }
 
-h3 {
-  font-size: 22px;
+
+.flex-container {
+  display: flex;
 }
 
-#fall {
-  background-image: url(../berryblitz.jpg);
+.flex-container.locations {
+  justify-content: center;
 }
 
-#spiced {
-  background-image: url(../spiced-rum.jpg);
-}
-
-#donuts {
-  background-image: url(../donut.jpg);
-}
-
-#myrtle {
-  background-image: url(../myrtle.jpg);
-}
-
-#bedford {
-  background-image: url(../bedford-bizarre.jpg);
-}
 
 #locations {
   background-image: url(../locations.jpg);
+  height: 500px;
+  padding-top:70px;
 }
 
 .adress {
-
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  padding: 10px;
+  margin: 5px 20px;
 }
 
 footer {
