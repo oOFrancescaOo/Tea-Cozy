@@ -42,6 +42,9 @@ a {
   top: 70px;
   width: 1200px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h2, h3, h4 {
@@ -62,10 +65,29 @@ h2, h3, h4 {
 }
 
 #featured {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 70px;
+
 }
 
 .tea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 22px;
 }
 
 #fall {
