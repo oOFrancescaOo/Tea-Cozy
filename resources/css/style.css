@@ -1,8 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -10,7 +5,9 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0;
 }
+
 
 header {
   position: fixed;
@@ -33,15 +30,18 @@ header nav {
   margin-right: 10px;
 }
 
+nav span {
+  padding: 20px 10px;
+}
+
 a {
   color: seashell;
 }
 
 .content {
-  position: relative;
-  top: 70px;
+  padding-top: 70px;
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,13 +52,9 @@ h2, h3, h4 {
     padding: 10px;
   }
 
-h3 {
-    font-size: 22px;
-  }
-
-p {
+/*p {
   padding: 22px 0px;
-}
+}*/
 
 #mission {
   background-image: url(../mission.jpg);
@@ -93,6 +89,13 @@ p {
 .item img {
   height: 200px;
   margin: 10px;
+  display: block;
+}
+
+.item span {
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
 
 
@@ -117,14 +120,17 @@ p {
   opacity: 1;
   padding: 10px;
   margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
-
+  text-align: left;
+  padding-left: 20px;
 }
 
 .contact {
-
+  height: 200px;
 }
 
 .copyright {
