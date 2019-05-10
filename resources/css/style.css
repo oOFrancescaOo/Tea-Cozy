@@ -4,15 +4,36 @@
 }
 
 body {
-
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
 }
 
 header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+#logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  margin-right: 10px;
 }
 
 a {
-
+  color: seashell;
 }
 
 .content {
