@@ -8,8 +8,8 @@ But I have some questions/suggestions regarding the original template:
 
 - Why isn't there a h1 headline?
 - In general I think headline tags are oddly chosen.
-- In the "Tea"-section, why are the img subline <span> and not <p>?
-- margins and paddings aren't consistent: e.g. Logo in <header> and copyright in <footer>
+- In the "Tea"-section, why are the img subline "<span>" and not "<p>"?
+- margins and paddings aren't consistent: e.g. Logo in "<header>" and copyright in "<footer>"
 
  These are certainly not major things, I just stumbled upon them while working on the project.
 
