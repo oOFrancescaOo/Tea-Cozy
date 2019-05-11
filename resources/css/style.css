@@ -36,16 +36,13 @@ header {
   z-index: 1;
   height: 69px;
   border-bottom: 1px solid seashell;
+  /* I thought this is more responsive than the original template so I kept it "space-between" */
   justify-content: space-between;
 }
 
 #logo img {
   height: 50px;
-  margin-left: 10px;
-}
-
-header nav {
-  margin-right: 10px;
+  padding-left: 10px;
 }
 
 nav span {
@@ -110,6 +107,10 @@ h2, h3, h4 {
 
 .contact {
   height: 200px;
+}
+
+.contact a {
+  text-decoration: none;
 }
 
 footer {
